@@ -14,7 +14,7 @@ export const ViewTask = ({ tasks, completedTasks, handleCheckboxChange }) => {
             </li>
           ))
         ) : (
-          <li className="list-group-item no-task">No tasks available</li>
+          <li className="list-group-item no-task">No task available</li>
         )}
       </ul>
     </div>
