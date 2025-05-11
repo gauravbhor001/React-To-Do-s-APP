@@ -1,0 +1,59 @@
+/* Main container for the Home page */
+.home-container {
+  background-color: #f4f6f9; /* Softer background color for better contrast */
+  min-height: 100vh;
+  padding: 40px 20px; /* Increased padding for better spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+}
+
+/* App title styling */
+.app-title {
+  font-size: 3rem; /* Larger font size for better emphasis */
+  color: #0056b3; /* Darker blue for better readability */
+  font-weight: 700; /* Extra bold for a stronger title */
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* App subtitle styling */
+.app-subtitle {
+  font-size: 1.4rem; /* Slightly larger subtitle */
+  color: #6c757d;
+  margin-bottom: 40px; /* Increased spacing below subtitle */
+  text-align: center; /* Center-align subtitle */
+}
+
+/* Task section styling */
+.task-section {
+  width: 100%;
+  max-width: 700px; /* Increased max width for better layout */
+  background-color: #ffffff;
+  padding: 30px; /* Increased padding for a spacious layout */
+  border-radius: 15px; /* More rounded corners for a modern look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow for depth */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for task section */
+.task-section:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 2.5rem; /* Adjust title size for smaller screens */
+  }
+
+  .app-subtitle {
+    font-size: 1.2rem; /* Adjust subtitle size for smaller screens */
+  }
+
+  .task-section {
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+}

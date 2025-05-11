@@ -1,0 +1,42 @@
+/* Main container for the About page */
+.about-container {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.about-title {
+  font-size: 2.5rem;
+  color: #0056b3;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Subtitle styling */
+.about-subtitle {
+  font-size: 1.8rem;
+  color: #343a40;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Description text styling */
+.about-description {
+  font-size: 1.2rem;
+  color: #495057;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* List styling */
+.about-list {
+  font-size: 1.2rem;
+  color: #495057;
+  line-height: 1.8;
+  margin-left: 20px;
+}
