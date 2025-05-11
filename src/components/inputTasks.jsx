@@ -13,7 +13,7 @@ const InputTasks = ({ addTask }) => {
   return (
     <div className="d-flex justify-content-center align-items-center flex-column">
       <form onSubmit={handleSubmit} className="w-50">
-        <input ref={inputRef} className="p-3 rounded-5 w-100" placeholder="Enter Your Task"/>
+        <input ref={inputRef} className="p-3 rounded-5 w-100" placeholder="Enter Your Task Details"/>
         <button type="submit" className="btn btn-primary mt-3 w-100">Add Task</button>
       </form>
     </div>
